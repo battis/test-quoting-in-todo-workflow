@@ -9,4 +9,5 @@ jobs:
         uses: "alstr/todo-to-issue-action@v4"
         with:
             AUTO_ASSIGN: true
-            IDENTIFIERS: "[{\"name\": \"TODO\", \"labels\": []}, {\"name\": \"FIXME\", \"labels\": [\"bug\"]}]"
+            IDENTIFIERS: '[{"name": "TODO", "labels": []}, 
+{"name": "FIXME", "labels": ["bug"]}]'
